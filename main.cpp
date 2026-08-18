@@ -327,9 +327,9 @@ main(void){
         main(void): i8 {
             print("hello world\n");
 
-            num: mut i32[] = [1, 2, 3, 4, 5];            
-            for(i: mut i8, inRange(0, 5)){
-                println(num[i]);
+            num: mut i32[5] = [1, 2, 3, 4, 5];            
+            for(number: num){
+                println(number);
             }
             
             ret 0;

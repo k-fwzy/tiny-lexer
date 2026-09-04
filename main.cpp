@@ -324,11 +324,11 @@ public:
 int
 main(void){
     std::string code = R"(
-        main(void): i8 {
+        main(void): i32 {
             print("hello world\n");
 
-            num: mut i32[5] = [1, 2, 3, 4, 5];            
-            for(number: num){
+            nums: mut i32[5] = [1, 2, 3, 4, 5];            
+            for(number: nums){
                 println(number);
             }
             

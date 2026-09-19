@@ -1,6 +1,7 @@
 # lexer made with c++
-tokenizer for a systems programming language inspired by rust, zig, and C
-handwritten in c++ , it tokenizes a custom programming language into 50+ token types including keywords, types, operators, literals, and punctuation
+tokenizer for a systems programming language inspired by rust, zig, and C (atleast that's the intentional syntax)
+written in c++ , it tokenizes a custom pseudo programming language into 50+ token types including keywords, types, operators, literals, and punctuation
+this serves to provide insight on how programming languages split words into tokens
 
 clone:
 ```bash
